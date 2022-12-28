@@ -3,7 +3,8 @@ import requests #Estoy importando la libreria requests que me sirve para comunic
 from skimage import io
 from PIL import ImageTk,Image
 import os
-from clases import *
+from clasesMENU import *
+
 
 m1=Main()
 
