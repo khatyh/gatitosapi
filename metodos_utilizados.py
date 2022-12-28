@@ -3,7 +3,7 @@ from flask import Flask , jsonify , request
 
 app = Flask(__name__) 
 
-from producto import gatos
+from metodosSERVIDOR import gatos
  
 @app.route('/ping')#Metodo GET es para listar 
 

@@ -66,9 +66,9 @@ class Main:
         elif op == "3":
 
             nombre_gatito = input("Que nombre desea modificar?...\n")
-            nom=input("Ingrese nuevo nombre")
-            col=input("Ingrese nuevo color")
-            ed=input("Ingrese nueva edad")
+            nom=input("Ingrese nuevo nombre\n")
+            col=input("Ingrese nuevo color\n")
+            ed=input("Ingrese nueva edad\n")
             data = {
                 "nombre": nom,
                 "color": col,
